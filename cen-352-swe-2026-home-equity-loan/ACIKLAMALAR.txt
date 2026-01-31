@@ -1,0 +1,45 @@
+Kredi Tahmini AI/ML Sınıflandırma  Modeli
+HMEQ (Home Equity Loan - Ev Kredisi) Veri Seti
+
+Bir bankanın tüketici kredisi departmanı, “konut kredisi limitlerinin” onaylanmasına yönelik karar verme sürecini otomatikleştirmek istiyor.
+Model, mevcut kredi taahhüt süreci aracılığıyla kredi verilen başvuru sahiplerinden toplanan verilere dayanmaktadır.
+Model, tahmine dayalı modelleme (predictive model) araçlarından oluşturulacaktır ancak oluşturulan model, herhangi bir olumsuz eyleme (reddetme) neden sağlamak için yeterince yorumlanabilir olmalıdır. 
+
+İçerik
+HMEQ veri seti, 5.960 konut rehin kredisi için özellikleri ve temerrüt bilgilerini barındırır. 
+Hedef (BAD - Kötü), bir başvuru sahibinin sonunda temerrüde düşüp düşmediğini gösteren ikili bir değişkendir. 
+Bu olumsuz sonuç 1.189 vakada (%20) meydana gelmiştir. Her başvuru sahibi için 12 girdi değişkeni kaydedilmiştir.
+
+Konut kredisi, borçlunun öz sermayesini temel teminat olarak kullandığı bir kredidir. 
+
+Veri seti aşağıdaki özelliklere sahiptir:
+
+◾ BAD: 1 = applicant defaulted on loan or seriously delinquent; 0 = applicant paid loan
+◾ LOAN: Amount of the loan request
+◾ MORTDUE: Amount due on existing mortgage
+◾ VALUE: Value of current property
+◾ REASON: DebtCon = debt consolidation; HomeImp = home improvement
+◾ JOB: Occupational categories
+◾ YOJ: Years at present job
+◾ DEROG: Number of major derogatory reports
+◾ DELINQ: Number of delinquent credit lines
+◾ CLAGE: Age of oldest credit line in months
+◾ NINQ: Number of recent credit inquiries
+◾ CLNO: Number of credit lines
+◾ DEBTINC: Debt-to-income ratio
+
+
+◾ KÖTÜ: 1 = başvuru sahibi krediyi temerrüde düşürdü veya ciddi şekilde temerrüde düştü; 0 = başvuru sahibi tarafından ödenen kredi
+◾ KREDİ: Kredi talebinin tutarı
+◾ İpotek: Mevcut ipotek için ödenmesi gereken tutar
+◾ DEĞER: Mevcut mülkün değeri
+◾ NEDEN: DebtCon = borç konsolidasyonu; HomeImp = ev geliştirme
+◾ İŞ: Meslek kategorileri
+◾ YOJ: Şu anki işteki yılları
+◾ DEROG: Büyük aşağılayıcı raporların sayısı
+◾ DELINQ: Geciken kredi limitlerinin sayısı
+◾ CLAGE: Ay cinsinden en eski kredi limitinin yaşı
+◾ NINQ: Son kredi sorgularının sayısı
+◾ CLNO: Kredi limiti sayısı
+◾ DEBTINC: Borcun gelire oranı
+
