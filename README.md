@@ -4,7 +4,7 @@ Home Equity Loan Default Prediction
 Student: Endri Baku  
 Course: Artificial Intelligence  
 Assignment: Midterm Coverage (Kaggle Competition)  
-Kaggle Username: EndriBaku  
+Kaggle Username: Endri Baku  
 
 ----------------------------------
 Project Overview
